@@ -146,7 +146,7 @@ A **dynamic two-stage comparator [(Van Elzakker, JSSC 2010)](https://ris.utwente
 | TT | < 2.48 mV | 342.2 ps |
 
 <p align="center">
-  <img src="images/comparator_black.png" width="700">
+  <img src="images/comparator_black.png">
 </p>
 
 > 📝 *Placeholder: Add Monte Carlo offset histogram (FF and SS)*
@@ -170,12 +170,12 @@ The digital SAR controller implements the binary search algorithm, generating th
 
 > 📝 *Placeholder: Add SAR controller layout screenshot*
 <p align="center">
-  <img src="images/SAR_controller_black.png" width="700">
+  <img src="images/SAR_controller_black.png"">
 </p>
 
 > 📝 *Placeholder: Add timing diagram showing SAR conversion cycle*
 <p align="center">
-  <img src="images/chip_sim.png" width="700">
+  <img src="images/chip_sim.png">
 </p>
 
 ---
@@ -205,7 +205,7 @@ Consistent layout practices were applied across all blocks:
 **Final ADC footprint:** 399.2 × 341.5 µm
 
 <p align="center">
-  <img src="images/SAR_ADC_black_annotated.png" width="700">
+  <img src="images/SAR_ADC_black_annotated.png">
 </p>
 
 ---
@@ -245,11 +245,8 @@ The ADC was merged with five other groups' designs into a **6-ADC top chip** for
 - **Full chip DRC/LVS closure** — ran and helped resolving violations including density and antenna
 
 <p align="center">
-  <img src="images/floor_plan.png">
-</p>
-
-<p align="center">
-  <img src="images/adc_chip_black.png">
+  <img src="images/floor_plan.png" width="400">
+  <img src="images/adc_chip_black.png" width="400">
 </p>
 
 ---
