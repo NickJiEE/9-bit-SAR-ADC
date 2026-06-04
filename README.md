@@ -174,7 +174,7 @@ The digital SAR controller implements the binary search algorithm, generating th
   <img src="images/chip_short.png">
 </p>
 
-Top chip simulation using MUX, verifying the functionality of the SAR ADC with everything set up.
+Top-chip level simulation using MUX's output, verifying the functionality of the SAR ADC with everything set up.
 
 ---
 
