@@ -170,9 +170,8 @@ The digital SAR controller implements the binary search algorithm, generating th
   <img src="images/SAR_controller_black_annotated.png"">
 </p>
 
-> 📝 *Placeholder: Add timing diagram showing SAR conversion cycle*
 <p align="center">
-  <img src="images/chip_sim.png">
+  <img src="images/chip_short.png">
 </p>
 
 ---
