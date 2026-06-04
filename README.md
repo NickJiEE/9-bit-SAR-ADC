@@ -38,8 +38,8 @@ The design was completed as part of a multi-group course project (ECE 266A) and 
 | Resolution | 9-bit differential |
 | Technology | TSMC 65nm |
 | Supply Voltage | 1 V |
-| SNDR (post-layout, with fillers) | 50.8 dB |
-| SFDR (post-layout) | 60 dB |
+| SNDR (post-layout, with fillers) | 50.5 dB |
+| SFDR (post-layout) | 59.5 dB |
 | Power Consumption | 241 µW |
 | Die Area | 399.2 × 341.5 µm |
 | Comparator Offset (MC mean, FF) | < 3.2 mV |
@@ -47,7 +47,7 @@ The design was completed as part of a multi-group course project (ECE 266A) and 
 | CDAC Capacitor Mismatch | < ±0.2% |
 | Bootstrapped Switch V_GS Variation | ~25 mV |
 | SFDR before bootstrapping | 43 dB |
-| SFDR after bootstrapping | 59 dB (switch only) → 60 dB (full ADC) |
+| SFDR after bootstrapping | 59 dB (switch only) → 59.5 dB (full ADC) |
 
 ---
 
@@ -227,7 +227,7 @@ Full **R + C + Cc** extraction was performed on all blocks using Calibre xRC pri
 - **LVS:** Passed (Calibre), full schematic-vs-layout match on all blocks and top level
 
 <p align="center">
-  <img src="images/sfdr_plot.png">
+  <img src="images/fft_spectrum.png">
 </p>
 
 ---
