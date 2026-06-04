@@ -92,15 +92,15 @@ Key design features:
 
 **Result:** V_GS variation was reduced to approximately **~25 mV** across the full input swing. The bootstrapped switch network alone improved SFDR from **43 dB to 59 dB**.
 
-> 📝 *Placeholder: Add VGS vs VIN simulation plot here*
 <p align="center">
-  <img src="images/vgs.png" width="700">
+  <img src="images/vgs.png">
 </p>
 
-> 📝 *Placeholder: Add Ron vs VIN comparison plot (with vs without bootstrapping)*
 <p align="center">
-  <img src="images/switch_bs_comparison.png" width="700">
+  <img src="images/switch_bs_comparison.png">
 </p>
+
+The red spectrum is with the bootstrapping network.
 
 ---
 
@@ -115,7 +115,6 @@ Matching techniques applied:
 - Iterative simulation-driven refinement to correct systematic gradients
 - Final mismatch across all binary-weighted caps: **< ±0.2%** from ideal ratios except one of the lower bit cap
 
-> 📝 *Placeholder: Add CDAC layout screenshot*
 <p align="center">
   <img src="images/CDAC_black.png" width="700">
 </p>
@@ -149,7 +148,6 @@ A **dynamic two-stage comparator [(Van Elzakker, JSSC 2010)](https://ris.utwente
   <img src="images/comparator_black.png">
 </p>
 
-> 📝 *Placeholder: Add Monte Carlo offset histogram (FF and SS)*
 <p align="center">
   <img src="images/mc_offset.png" width="700">
 </p>
@@ -168,7 +166,6 @@ The digital SAR controller implements the binary search algorithm, generating th
 
 **6-to-1 Output MUX:** For the top-level tape-out, a **6-to-1 multiplexer** was also designed in VerilogA to select the 10-bit output from any of the six SAR ADCs on the top chip for readout through the shared pad ring.
 
-> 📝 *Placeholder: Add SAR controller layout screenshot*
 <p align="center">
   <img src="images/SAR_controller_black.png"">
 </p>
@@ -245,8 +242,8 @@ The ADC was merged with five other groups' designs into a **6-ADC top chip** for
 - **Full chip DRC/LVS closure** — ran and helped resolving violations including density and antenna
 
 <p align="center">
-  <img src="images/floor_plan.png" width="500">
-  <img src="images/adc_chip_black.png" width="500">
+  <img src="images/floor_plan.png" width="450">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/adc_chip_black.png" width="417">
 </p>
 
 ---
