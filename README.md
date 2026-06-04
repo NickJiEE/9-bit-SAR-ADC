@@ -243,8 +243,8 @@ The ADC was merged with five other groups' designs into a **6-ADC top chip** for
 - **Full chip DRC/LVS closure** — ran and helped resolving violations including density and antenna
 
 <p align="center">
-  <img src="images/floor_plan.png" width="450">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/adc_chip_black.png" width="417">
+  <img src="images/floor_plan.png" width="433">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/adc_chip_black.png" width="400">
 </p>
 
 ---
