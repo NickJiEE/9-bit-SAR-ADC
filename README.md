@@ -87,7 +87,7 @@ Key design features:
 - Switch array uses `nch` devices M2, M4, M8 as the core sampling transistors
 
 <p align="center">
-  <img src="images/bootstrap_schematic_black.png" width="700">
+  <img src="images/bootstrap_schematic_black.png">
 </p>
 
 **Result:** V_GS variation was reduced to approximately **~25 mV** across the full input swing. The bootstrapped switch network alone improved SFDR from **43 dB to 59 dB**.
@@ -120,7 +120,6 @@ Matching techniques applied:
   <img src="images/CDAC_black.png" width="700">
 </p>
 
-> 📝 *Placeholder: Add capacitor ratio error bar chart (simulated vs ideal)*
 <p align="center">
   <img src="images/CDAC_mismatch.png" width="700">
 </p>
@@ -146,7 +145,6 @@ A **dynamic two-stage comparator [(Van Elzakker, JSSC 2010)](https://ris.utwente
 | SS | < 1.80 mV | 491.2 ps |
 | TT | < 2.48 mV | 342.2 ps |
 
-> 📝 *Placeholder: Add comparator layout screenshot (common-centroid pair visible)*
 <p align="center">
   <img src="images/comparator_black.png" width="700">
 </p>
@@ -206,7 +204,6 @@ Consistent layout practices were applied across all blocks:
 
 **Final ADC footprint:** 399.2 × 341.5 µm
 
-> 📝 *Placeholder: Add full ADC top-level layout screenshot*
 <p align="center">
   <img src="images/SAR_ADC_black_annotated.png" width="700">
 </p>
@@ -231,9 +228,8 @@ Full **R + C + Cc** extraction was performed on all blocks using Calibre xRC pri
 - **DRC:** Passed (Calibre), including density and antenna rules
 - **LVS:** Passed (Calibre), full schematic-vs-layout match on all blocks and top level
 
-> 📝 *Placeholder: Add SNDR/SFDR FFT output plot*
 <p align="center">
-  <img src="images/sfdr_plot.png" width="700">
+  <img src="images/sfdr_plot.png">
 </p>
 
 ---
@@ -248,13 +244,12 @@ The ADC was merged with five other groups' designs into a **6-ADC top chip** for
 - **10-bit buffer array** — restores signal strength on long traces from ADC outputs to pads
 - **Full chip DRC/LVS closure** — ran and helped resolving violations including density and antenna
 
-> 📝 *Placeholder: Add top chip floorplan / full layout screenshot*
 <p align="center">
-  <img src="images/floor_plan.png" width="700">
+  <img src="images/floor_plan.png">
 </p>
 
 <p align="center">
-  <img src="images/adc_chip_black.png" width="700">
+  <img src="images/adc_chip_black.png">
 </p>
 
 ---
