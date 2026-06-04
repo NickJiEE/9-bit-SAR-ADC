@@ -149,7 +149,7 @@ A **dynamic two-stage comparator [(Van Elzakker, JSSC 2010)](https://ris.utwente
 </p>
 
 <p align="center">
-  <img src="images/mc_offset.png" width="700">
+  <img src="images/mc_offset.png">
 </p>
 
 ---
