@@ -116,7 +116,7 @@ Matching techniques applied:
 - Final mismatch across all binary-weighted caps: **< ±0.2%** from ideal ratios except one of the lower bit cap
 
 <p align="center">
-  <img src="images/CDAC_black.png" width="700">
+  <img src="images/DAC_black.png">
 </p>
 
 <p align="center">
