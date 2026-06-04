@@ -145,7 +145,7 @@ A **dynamic two-stage comparator [(Van Elzakker, JSSC 2010)](https://ris.utwente
 | TT | < 2.48 mV | 342.2 ps |
 
 <p align="center">
-  <img src="images/comparator_black.png">
+  <img src="images/comparator_black_annotated.png">
 </p>
 
 <p align="center">
@@ -167,7 +167,7 @@ The digital SAR controller implements the binary search algorithm, generating th
 **6-to-1 Output MUX:** For the top-level tape-out, a **6-to-1 multiplexer** was also designed in VerilogA to select the 10-bit output from any of the six SAR ADCs on the top chip for readout through the shared pad ring.
 
 <p align="center">
-  <img src="images/SAR_controller_black.png"">
+  <img src="images/SAR_controller_black_annotated.png"">
 </p>
 
 > 📝 *Placeholder: Add timing diagram showing SAR conversion cycle*
