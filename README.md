@@ -247,8 +247,10 @@ The ADC was merged with five other groups' designs into a **6-ADC top chip** for
 </p>
 
 <p align="center">
-  <img src="images/adc_chip_black.png">
+  <img src="images/adc_chip_black_annotated.png">
 </p>
+
+Top-level chip layout with annotated devices, pins, and DCAPs.
 
 ---
 
