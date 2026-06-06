@@ -40,7 +40,7 @@ The design was completed as part of a multi-group course project (ECE 266A) and 
 | Supply Voltage | 1 V |
 | SNDR (post-layout, with fillers) | 50.5 dB |
 | SFDR (post-layout) | 59.5 dB |
-| Power Consumption | 241 µW |
+| Power Consumption | 233.3 µW |
 | Die Area | 399.2 × 341.5 µm |
 | Comparator Offset (MC mean, FF) | < 3.2 mV |
 | Comparator Offset (MC mean, SS) | < 1.8 mV |
